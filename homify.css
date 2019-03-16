@@ -1,0 +1,304 @@
+#bg{
+	background-image:url("bg1.jpg");
+	background-repeat:no-repeat;
+	width:100%;
+	background-color:rgb(19,119,117);
+}
+h1{
+	font-family:Palatino Linotype italic;
+	font-size:135.5px;
+	color:rgb(0,0,0);
+	text-shadow:5px 5px 12px rgb(121,234,231);
+	margin-top:-23px;
+	
+	margin-left:30px;
+}
+.bg1
+{
+	background-color:rgb(253,192,122);
+}	
+#pgname
+{
+	font-family:segoe script;
+	font-size:60px;
+	color:rgb(0,0,0);
+	text-shadow:3.8px 3.8px 8.6px rgb(121,234,231);
+}
+#navigation{
+	border: 3px solid rgb(0,0,0);
+	background-color:rgb(12,71,70);
+	height:12%;
+	width:90%;
+	margin-top:-50px;
+	margin-left:30px;
+	border-radius:55px;
+}
+li 
+{
+  float:left;
+}
+li,a
+{
+	
+	color: rgb(214,214,214);
+	font-size:25px;
+  padding: 20px 20px;
+  margin-top:-7.5px;
+}
+a:hover
+{
+	color:white;
+	
+}
+.heading
+{
+	color:black;
+	position:absolute;
+	top:46%;
+	width:100%;
+	text-align:center;
+	font-size:3rem;
+	margin-left:28%;
+	text-shadow:5px 5px 18px rgb(0,0,0);
+}
+.heading2
+{
+	color:black;
+	position:absolute;
+	font-family:segoe script;
+	top:60%;
+	width:100%;
+	text-align:center;
+	font-size:23.5px;
+	margin-left:22%;
+	text-shadow:5.5px 5.5px 10px #fff;
+}
+.heading3
+{
+	color:white;
+	position:absolute;
+	top:135%;
+	font-family:Consolas;
+	width:100%;
+	text-align:center;
+	font-size:25px;
+	text-shadow:7px 7px 4px rgb(0,0,0);
+}
+.heading4
+{
+	color:white;
+	position:absolute;
+	top:66.5%;
+	font-family:Consolas italic;
+	width:100%;
+	text-align:center;
+	font-size:43px;
+	text-shadow:3px 3px 8px #fff;
+}
+.heading5
+{
+	color:rgb(0,0,0);
+	position:absolute;
+	top:110%;
+	font-family:segoe print bold;
+	width:100%;
+	text-align:center;
+	font-size:100%;
+	text-shadow:7px 7px 12px rgb(0,0,0);
+}
+#container
+{
+	font-family:blackladder ITC;
+	font-size:55px;
+	margin-left:2.3%;
+	text-shadow:6px 6.5px 10px rgb(42,42,42);
+	margin-top:1.6%;
+	margin-bottom:2.5%;
+}
+#container2
+{
+	font-family:blackladder ITC;
+	text-decoration:underline;
+	font-size:200%;
+	position:relative;
+	text-align:center;
+	margin-top:-28%;
+	margin-bottom:26%;
+	margin-left:32%;
+	margin-right:1%;
+}
+#footer
+{
+	background-color:rgb(0,74,74);
+	height:100%;
+}
+#footer1
+{
+
+	background-color:rgb(0,74,74);
+	text-align:center;
+	height:30%;
+	width:98.5%;
+	top:100%;
+	left:0px;
+	bottom:0px;
+    margin-left:10px;
+	text-shadow:3px 2.5px 5px #fff;
+}
+#footer-summary-text
+{
+	text-align:center;
+	font-size:150%;
+	text-indent:1.5%;
+	margin-top:3%;
+	margin-bottom:10%;
+}
+.text-wrapper
+{
+	width:100%;
+	position:relative;
+	margin-top:-40%;
+}
+.text-wrapper p
+{
+	text-align:center;
+	color:rgb(64,0,0);
+	font-size:70px;
+	text-shadow:3px 2.5px 5px rgb(0,0,0);
+	font-family:'lobster';
+	margin-left:10%;
+
+}
+.paragraph
+{
+	text-align:center;
+	color:rgb(0,0,0);
+	font-size:20px;
+	text-shadow:3px 3px 10px rgb(0,0,0);
+	font-family:Segoe Print;
+	text-indent:10%;
+	margin-left:36%;
+	margin-right:27%;
+	margin-top:-5%;
+	margin-bottom:5%;
+	
+}
+	
+.s-m
+{
+	position:absolute;
+	top:860%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.s-m a
+{
+	display:inline-flex;
+	width:40px;
+	height:40px;
+	background:rgb(0,174,174);
+	color:white;
+	margin:0 6px;
+	border-radius:60%;
+	align-items:center;
+	justify-content:center;
+	transition:0.4s;
+	font-size:22px;
+}
+.s-m a:hover
+{
+	background:black;
+}
+.s-m a i
+{
+	transition:0.4s all;
+}
+.s-m a:hover > i
+{
+	transform:scale(1.6) rotate(25deg);
+}
+
+#outerbox
+{
+	width:500px;
+	overflow:hidden;
+	margin-left:535px;
+    margin-top:0px;
+}
+#sliderbox
+{
+	position:absolute;
+	width:7000px;
+	animation-name:interior;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+#sliderbox img
+{
+	float:left;
+}
+@keyframes interior{
+0%
+{
+	left:0px;
+}
+20% /* 4 second */
+{
+	left:-800px;
+}
+25% /* 5 second */
+{
+	left:-800px;
+}
+45%/* 9 second */
+{
+	left:-800px;
+}
+50%/* 10 second */
+{ 
+    left:-1600px;
+}
+55% /* 12 second*/
+{
+	left:-1600px;
+}
+60%/* 13 second*/
+{
+	left:-1600px;
+}
+70%/* 14 second */
+{
+	left:-2400px;
+}
+75%/* 15 second */
+{
+	left:-2400px;
+}
+80%/* 16 second*/
+{
+	left:-2400px;
+}
+90%/* 18 second*/
+{
+	left:-3200px;
+}
+95%/*19 second*/
+{
+	left:-3200px;
+}
+100%/*20 second*/
+{
+    left:-3200px;	
+}
+}
+
+
+
+
+
+
+
+
+
+
+	
